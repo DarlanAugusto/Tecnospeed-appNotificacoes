@@ -11,6 +11,55 @@
         <title>App Notificações</title>
     </head>
     <body>
+      <div class="header teal">
+        <button class="left icon ion-navicon"></button>
+        <h1>App Notificações</h1>
+        <div class="right">
+          <button class="icon ion-search"></button>
+          <button class="icon ion-plus-round"></button>
+          <button class="icon ion-android-more-vertical" onclick="openPopover('meuPopover')"></button>
+        </div>
+      </div>
+
+      <div class="popover" id="meuPopover">
+        <div class="list">
+          <div class="item">
+            <h1>Cadastrar Usuário</h1>
+          </div>
+          <div class="item">
+            <h1>Gráfico de Desempenho</h1>
+          </div>
+          <div class="item">
+            <h1>Relatórios</h1>
+          </div>  
+        </div>
+      </div>
+
+      <div class="content has-header">
+        <div class="list">
+          <div class="item">
+            <div class="right align-top">
+              <button class="icon ion-android-more-vertical" onclick="openPopover('meuPopover')"></button>
+            </div>
+            <h1 class="text-strong">Darlan Silva</h1>
+            <p class="opacity-50">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe, accusantium delectus autem omnis eum corrupti. Quisquam at, tempore a officia nesciunt, cumque unde hic labore laborum nisi ratione quia fuga?</p>
+          </div>
+          <div class="item">
+            <div class="right align-top">
+              <button class="icon ion-android-more-vertical" onclick="openPopover('meuPopover')"></button>
+            </div>
+            <h1 class="text-strong">Darlan Silva</h1>
+            <p class="opacity-50">Quo odit beatae eius iusto, illum ducimus commodi saepe enim quod laudantium non neque totam illo, molestiae possimus fugit sint dolores error fuga voluptates. Rerum, id? Id nulla quidem totam.</p>
+          </div>
+          <div class="item">
+            <div class="right align-top">
+              <button class="icon ion-android-more-vertical" onclick="openPopover('meuPopover')"></button>
+            </div>
+            <h1 class="text-strong">Darlan Silva</h1>
+            <p class="opacity-50">Repellendus atque totam natus quo minus repudiandae ea non amet, quae, sequi beatae aut facilis consequatur quibusdam aliquid? Enim, eius adipisci? Inventore in voluptatem dignissimos delectus aliquid laboriosam et recusandae?</p>
+          </div>
+        </div>
+      </div>
 
       
       <script type="text/javascript" src="cordova.js"></script>
